@@ -2,7 +2,7 @@
 # 206 
 
 ## About
-This repo contains the client and service components of a web app for researching neighborhoods in Seattle, WA. The service contains functionality to convert from different forms of location input  (coordinates, zip code and name), and merges together data from a local csv with REST API responses from [Seattle Open Data](https://data.seattle.gov/). 
+This repo contains the client and service components of a web app for researching neighborhoods in Seattle, WA. The service contains functionality to convert from different forms of location input (coordinates, zip code and name), and merges together data from [Seattle Open Data](https://data.seattle.gov/). 
 
 ### Data
 * Description
