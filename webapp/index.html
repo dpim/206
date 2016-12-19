@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>206NEIGHBORHOODS</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="http://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="http://openlayers.org/en/v3.18.2/build/ol.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="http://openlayers.org/en/v3.18.2/css/ol.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+	<div id="section">
+		<div id="map"></div>
+		<div id="data">
+			<div id="entry">
+				<h1 class="pop">206NEIGHBORHOODS</h1>
+			 	<input id="location" type="text" placeholder="Neighborhood or zip">
+			 	<div class="information pop">Learn more about the Emerald City. Select an area, type the name of a neighborhood or zipcode to get started.</div>
+			 </div>
+			 <div id="info">
+			 	<h1 id="neigh">WALLINGFORD</h1>
+			 	<h2> Description </h2>
+			 	<div class="information" id="basic"></div>
+			 	<h2> Schools </h2>
+			 	<div class="information" id="schools"></div>
+			 	<ul id="schoolList">
+			 	</ul>
+			 	<h2> Points of Interest </h2>
+			 	<ul id="poiList">
+			 	</ul>
+			 	<h2> Public safety </h2>
+			 	<div class="information" id="burglary"></div>
+			 	<div class="information" id="violent"></div>
+			 	<ul id="crimeList">
+			 	</ul>
+			 </div>
+		</div>
+	</div>
+</body>
+</html>
